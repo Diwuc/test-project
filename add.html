@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Add</title>
+    <link rel="stylesheet" href="listsyle.css">
+</head>
+<body>
+    <header>
+        <h1>Product Add</h1>
+        <div class="buttons"> 
+            <button>Save</button>
+            <button id="delete-product-btn">Cancel</button>
+        </div>
+    </header>
+    <div id="product_form">
+        <div class="input first">
+            <label for="sku">SKU</label>
+            <input type="text" name="sku" id="sku" placeholder="SKU">
+        </div>
+        <div class="input second">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Name">
+        </div>
+        <div class="input third">
+            <label for="price">Price ($)</label>
+            <input type="text" name="price" id="price" placeholder="Price">
+        </div>
+        <div class="input fourth">
+            <label for="switcher">Type Switcher</label>
+            <select id="productType">
+                <option>DVD</option>
+                <option>Furniture</option>
+                <option>Book</option>
+            </select>
+        </div>
+        <div class="description">
+            
+        </div>
+    </div>
+    <footer>
+        <p>Scandiweb Test assignment</p>
+    </footer>
+</body>
+</html>
